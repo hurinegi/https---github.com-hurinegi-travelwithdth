@@ -1,0 +1,31 @@
+.services
+{
+    padding: 10px 5px;
+}
+.sservices img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.services h1
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.Viewbtn
+{
+   color: #000;
+   background-color: var(--pimary-color);
+   padding: 10px 10px;
+   text-decoration: none;
+   font-size: 16px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+   

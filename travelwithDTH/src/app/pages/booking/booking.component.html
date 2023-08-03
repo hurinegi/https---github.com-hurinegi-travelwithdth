@@ -1,0 +1,19 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-4" *ngFor="let act of activityData">
+
+        
+
+        <div class="treks mt-3 mb-5">
+         <img src="{{act.trkimg}}">
+         <h1>{{act.trkName}}</h1>
+         <p>{{act.trkDetails}}</p>
+         <p>{{act.trkPrice | currency:'INR'}}</p>
+         <br/>
+         <a class="Viewbtn" [routerLink]="['/booking',act.id]">View trek</a>
+        </div>
+    </div>
+    </div>
+</div>
